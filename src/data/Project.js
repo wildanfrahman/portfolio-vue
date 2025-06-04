@@ -1,7 +1,7 @@
 export default [
   {
     id: "project-1",
-    image: "/images/testing.jpg",
+    image: "images/testing.jpg",
     title: "Random Quote App",
     description: "Aplikasi Random Quote menggunakan Vue.js + Express.js",
     features: [
