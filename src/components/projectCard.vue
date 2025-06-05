@@ -1,6 +1,6 @@
 <template>
-  <v-card variant="outlined" hover>
-    <v-img :src="Project.image" height="200" cover></v-img>
+  <v-card hover>
+    <v-img :src="Project.image" height="200" cover lazy></v-img>
     <v-card-title>{{ Project.title }}</v-card-title>
     <v-card-text>{{ Project.description }}</v-card-text>
     <v-card-actions>

@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar :elevation="0" flat>
+  <v-app-bar :elevation="1" flat>
     <v-app-bar-nav-icon class="d-sm-none" @click="drawer = !drawer" />
 
     <!-- normal -->
